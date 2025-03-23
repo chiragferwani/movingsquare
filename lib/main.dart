@@ -13,20 +13,20 @@ class MovingSquareApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false, // to hide the banner
-      home: MovingSquareScreen(),
+      home: SquareAnimation(),
     );
   }
 }
 
 // creating a stateful widget to handle the animation of the square
-class MovingSquareScreen extends StatefulWidget {
-  const MovingSquareScreen({super.key});
+class SquareAnimation extends StatefulWidget {
+  const SquareAnimation({super.key});
 
   @override
-  _MovingSquareScreenState createState() => _MovingSquareScreenState();
+  _SquareAnimation createState() => _SquareAnimation();
 }
 
-class _MovingSquareScreenState extends State<MovingSquareScreen> {
+class _SquareAnimation extends State<SquareAnimation> {
   double _position = 0; // setting default position to 0
   final double _squareSize = 50.0; // square size
   bool _isAnimating = false; // flag to handle animations
