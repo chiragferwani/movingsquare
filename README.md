@@ -45,7 +45,6 @@ flutter run
 📦 moving-square
  ┣ 📂 lib
  ┃ ┣ 📜 main.dart       # Main entry point of the app
- ┃ ┣ 📜 moving_square.dart  # The UI and animation logic
  ┣ 📜 pubspec.yaml      # Dependencies and configurations
  ┣ 📜 README.md         # This file (Project Documentation)
  ┗ 📜 .gitignore        # Ignore unnecessary files in GitHub
